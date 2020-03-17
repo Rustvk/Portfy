@@ -1,0 +1,19 @@
+@mixin corbel() {
+  font-family: 'Corbel', Helvetica, Arial, sans-serif;
+}
+
+@mixin corbel-bold() {
+  font-family: 'Corbel', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+@mixin corbel-italic() {
+  font-family: 'Corbel', Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+@mixin corbel-bold-italic() {
+  font-family: 'Corbel', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}

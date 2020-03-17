@@ -1,0 +1,42 @@
+@import "../../styles/themes/light/colors.scss";
+@import "../../styles/themes/medium/sizes.scss";
+@import "../mixins/fonts.scss";
+
+@mixin button {
+  text-align: center;
+  cursor: pointer;
+  @include corbel();
+  &:focus {
+    outline: 0;
+  }
+}
+
+@mixin small-button() {
+  border: 2px solid $blue;
+  color: $small-button-text;
+  border-radius: 6px;
+  padding: 6px 15px;
+  font-size: $small-button-text-size;
+  background: none;
+  @include button();
+  &:active {
+    border-color: $dark-blue;
+    color: $dark-blue;
+    transform: scale(0.98);
+  }
+}
+
+@mixin primary-button() {
+  background-color: $blue;
+  color: $big-button-text;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  border: 0;
+  font-size: $big-button-text-size;
+  @include button();
+  &:active {
+    background: $dark-blue;
+    transform: scale(0.98);
+  }
+}

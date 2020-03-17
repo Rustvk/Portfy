@@ -1,0 +1,20 @@
+@import "../../styles/helper.scss";
+
+.head {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.headText {
+  font-size: 50px;
+  font-weight: normal;
+  color: $dark-gray;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.headDescription {
+  font-size: 18px;
+  font-weight: normal;
+  color: $dark-gray;
+  width: 380px;
+}

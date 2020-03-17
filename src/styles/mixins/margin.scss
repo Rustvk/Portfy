@@ -1,0 +1,25 @@
+@mixin small-margin-left() {
+  margin-left: 4px;
+}
+@mixin medium-margin-left() {
+  margin-left: 8px;
+}
+@mixin big-margin-left() {
+  margin-left: 12px;
+}
+@mixin large-margin-left() {
+  margin-left: 20px;
+}
+
+@mixin small-margin-top() {
+  margin-top: 4px;
+}
+@mixin medium-margin-top() {
+  margin-top: 8px;
+}
+@mixin big-margin-top() {
+  margin-top: 12px;
+}
+@mixin large-margin-top() {
+  margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Corbel';
+  src: url('Corbel/Corbel.eot');
+  src: local('Corbel'),
+  url('Corbel/Corbel.eot?#iefix') format('embedded-opentype'),
+  url('Corbel/Corbel.woff') format('woff'),
+  url('Corbel/Corbel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url('Corbel/CorbelBold.eot');
+  src: local('Corbel Bold'), local('Corbel Bold'),
+  url('Corbel/CorbelBold.eot?#iefix') format('embedded-opentype'),
+  url('Corbel/CorbelBold.woff') format('woff'),
+  url('Corbel/CorbelBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url('Corbel/CorbelItalic.eot');
+  src: local('Corbel Italic'), local('Corbel Italic'),
+  url('Corbel/CorbelItalic.eot?#iefix') format('embedded-opentype'),
+  url('Corbel/CorbelItalic.woff') format('woff'),
+  url('Corbel/CorbelItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url('Corbel/CorbelBoldItalic.eot');
+  src: local('Corbel Bold Italic'), local('Corbel Bold Italic'),
+  url('Corbel/CorbelBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('Corbel/CorbelBoldItalic.woff') format('woff'),
+  url('Corbel/CorbelBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

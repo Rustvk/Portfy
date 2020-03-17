@@ -1,0 +1,44 @@
+@import "../styles/helper.scss";
+
+.logo {
+  position: relative;
+}
+
+.logoContainer {
+  width: 150px;
+  @include flex();
+  @include align-items-center ();
+  @include justify-content-between ();
+}
+.squareContainer {
+  position: relative;
+  display: block;
+  height: 35px;
+}
+.logoText {
+  height: 40px;
+  line-height: 40px;
+  color: $dark_gray;
+  font-size: $logo-size;
+  @include corbel-bold();
+
+}
+@mixin square () {
+  position: absolute;
+  display: block;
+  width: 36px;
+  height: 25px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.emptySquare {
+  @include square();
+  border: 4px solid $dark-gray;
+}
+.fillSquare {
+  @include square();
+  left: 10px;
+  top: 10px;
+  background: $blue;
+}

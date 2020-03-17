@@ -1,0 +1,11 @@
+@import "../styles/helper.scss";
+
+.main {
+  padding-top: 70px;
+  @include flex();
+  @include justify-content-center();
+  background: $gray-background;
+}
+.mainContainer {
+  max-width: 100%;
+}

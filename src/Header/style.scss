@@ -1,0 +1,13 @@
+@import "../styles/helper.scss";
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  &:hover {
+    background: rgba(0,0,0,0.1);
+  }
+}
+.headerContainer {
+  width: 1200px;
+}
