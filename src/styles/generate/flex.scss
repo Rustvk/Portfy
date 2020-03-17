@@ -1,0 +1,30 @@
+@import "../mixins/flex.scss";
+.flex {
+  @include flex();
+}
+
+.justify-content-start {
+  @include justify-content-start();
+}
+.justify-content-between {
+  @include justify-content-between();
+}
+.justify-content-right {
+  @include justify-content-right();
+}
+.justify-content-center {
+  @include justify-content-center();
+}
+
+.align-items-start {
+  @include align-items-start();
+}
+.align-items-end {
+  @include align-items-end();
+}
+.align-items-baseline {
+  @include align-items-baseline();
+}
+.align-items-center {
+  @include align-items-center();
+}

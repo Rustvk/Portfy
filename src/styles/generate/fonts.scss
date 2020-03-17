@@ -1,0 +1,14 @@
+@import "../mixins/fonts.scss";
+
+.corbel {
+  @include corbel();
+}
+.corbelBold {
+  @include corbel-bold();
+}
+.corbelItalic {
+  @include corbel-italic();
+}
+.corbelBoldItalic {
+  @include corbel-bold-italic();
+}

@@ -1,0 +1,27 @@
+@import "../mixins/margin.scss";
+.smallMarginLeft {
+  @include small-margin-left();
+}
+.mediumMarginLeft {
+  @include medium-margin-left();
+}
+.bigMarginLeft {
+  @include big-margin-left();
+}
+.largeMarginLeft {
+  @include large-margin-left();
+}
+
+.smallMarginTop {
+  @include small-margin-top();
+}
+.mediumMarginTop {
+  @include medium-margin-top();
+}
+.bigMarginTop {
+  @include big-margin-top();
+}
+.largeMarginTop {
+  @include large-margin-top();
+}
+

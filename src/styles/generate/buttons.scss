@@ -1,0 +1,8 @@
+@import "../mixins/buttons.scss";
+
+.smallButton {
+  @include small-button();
+}
+.primaryButton {
+  @include primary-button();
+}

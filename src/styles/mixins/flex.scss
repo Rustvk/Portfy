@@ -1,0 +1,39 @@
+@mixin flex() {
+  display: flex;
+}
+@mixin flex-column() {
+  flex-direction: column;
+}
+
+// ALIGN ITEMS
+
+@mixin align-items-start() {
+  align-items: flex-start;
+}
+@mixin align-items-end() {
+  align-items: flex-end;
+}
+@mixin align-items-baseline() {
+  align-items: baseline;
+}
+@mixin align-items-center() {
+  align-items: center;
+}
+
+
+
+
+// JUSTIFY CONTENT
+
+@mixin justify-content-start() {
+  justify-content: start;
+}
+@mixin justify-content-between() {
+  justify-content: space-between;
+}
+@mixin justify-content-right() {
+  justify-content: right;
+}
+@mixin justify-content-center() {
+  justify-content: center;
+}
