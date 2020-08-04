@@ -1,2 +1,3 @@
 # Portfolio management application
-Started project
+
+Prject in planning
